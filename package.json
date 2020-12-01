@@ -1,0 +1,17 @@
+{
+  "name": "my_dicts_v8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-addon-api": "^1.1.0",
+    "node-gyp": "3.6.2"
+  },
+  "author": "Cesar VR",
+  "license": "ISC"
+}
