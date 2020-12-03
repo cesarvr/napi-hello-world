@@ -26,3 +26,15 @@ NODE_API_MODULE(NODE_GYP_MODULE_NAME, Init)
 ```
 
 > To run this example just do `npm install` and after that `npm start` to execute the `index.js` file.
+
+
+## Invoking From JS
+
+From JS you can invoke the `hello` native method like this: 
+
+```js
+const addon = require('./build/Release/hello.node');
+console.log('hello: ', addon.hello())
+```
+
+If you need more information you can access [n-api documentation](https://github.com/nodejs/node-addon-api/tree/master/doc).
